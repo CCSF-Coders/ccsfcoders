@@ -7,15 +7,105 @@
 body {
     height: 100%;
     width: 100%;
+    min-width: 640px;
     margin: 0px auto;
+    background-color: #232323;
+    color: #dfdfdf;
+
+    font-family: "Source Code Pro";
+    font-size: 14px;
+
 }
 
 .header {
-    position: relative;
-    background-color: black;
-    color: red;
+    background:
+    linear-gradient(135deg, #232323 22px, #a8a8a8 22px, #a8a8a8 24px, transparent 24px, transparent 67px, #a8a8a8 67px, #a8a8a8 69px, transparent 69px) 0px -22px,
+    linear-gradient(225deg, #232323 22px, #a8a8a8 22px, #a8a8a8 24px, transparent 24px, transparent 67px, #a8a8a8 67px, #a8a8a8 69px, transparent 69px) 0px 42px;
+    background-color: #232323;
+    background-size: 64px 128px;
 
+    color: #A4FF59;
     width: 100%;
-    height: 64px;
+    height: 120px;
+    border-bottom: 1px solid #a8a8a8;
+
+/*
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+*/
 }
 
+h1, h2, h3 {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hacktheplanet {
+    position: absolute;
+    top: 60px;
+    left: 34px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.header h1 {
+    position: relative;
+    margin-left: 31px;
+    top: 2px;
+    font-weight: bold;
+    font-size: 42px;
+    font-family: Verdana;
+}
+
+#clock {
+    position: absolute;
+    display: inline;
+    text-align: right;
+    top: 0px;
+    right: 6px;
+    font-weight: medium;
+    font-size: 14px;
+}
+
+nav {
+    position: absolute;
+    top: 120px;
+    background-color: #232323;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding-top: 6px;
+    width: 96px;
+    height: 36px;
+    font-size: 16px;
+    border-bottom: 1px solid #a8a8a8;
+    border-right: 1px solid #a8a8a8;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #A4FF59;
+}
+
+a:hover {
+    background-color: #A4FF59;
+    color: #232323;
+}
+
+a:focus {
+    outline: 0px;
+}
+
+.content {
+    position: relative;
+    top: 24px;
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
