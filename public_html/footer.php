@@ -2,7 +2,7 @@
 
 echo "
 <div class=\"footer\">
-    Licensed GPL2. <a target=\"_blank\" href=\"https://github.com/CCSF-Coders/ccsfcoders\">See the code!</a>
+    Licensed MIT. <a target=\"_blank\" href=\"https://github.com/CCSF-Coders/ccsfcoders\">See the code!</a>
 </div>
 ";
 
